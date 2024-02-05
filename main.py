@@ -2,13 +2,18 @@
 # Book started with -> "Python Programming Illustrated by William Sullivan"
 # -->>>
 
-# DICTIONARIES
-# just like a JSON file, but different
-cars = {"Name":"Audi", "Model":2008, "Color":"Black"}
-#.keys/.values are methods
-print(cars.keys()) #Name, Model, Color
-print(cars.values()) #Audi, 2008, Black
+# OPERATORS
+# Python operators can be divided into following five categories:
+# 1- Arithmetic
+# 2- Logical
+# 3- Comparison
+# 4- Assignement
+# 5- Membership operators
 
+# -- 1 Arithmetic:
+# Basic math operations + - / *
+number = 7
+power = 2
+result = number ** power
+print(result)
 
-trueFriend = {"Name": "Bike", "Model":2010, "Engine":"S.S.S Core Concept"}
-print(trueFriend.keys(), trueFriend.values())
