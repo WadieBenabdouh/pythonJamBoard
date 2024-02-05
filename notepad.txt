@@ -1,0 +1,11 @@
+Naming Conventions
+Here are some python naming conventions:
+- Package and module names are all lower case
+- Classes are declared in bumpy case with first letter of the individual words capitalized.
+For instance: 
+
+“CustomerProductRecord” is a valid class name.
+
+- For methods and functions convention is to use
+lowercase letters with individual words separated by
+underscores. For example person_name, get_age etc.
