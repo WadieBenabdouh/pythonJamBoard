@@ -10,10 +10,7 @@
 # 4- Assignement
 # 5- Membership operators
 
-# -- 1 Arithmetic:
-# Basic math operations + - / *
-number = 7
-power = 2
-result = number ** power
-print(result)
+# -- 2 Logical operators
+# 
+
 
