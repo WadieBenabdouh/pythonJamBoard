@@ -5,6 +5,6 @@
 # DICTIONARIES
 # just like a JSON file, but different
 cars = {"Name":"Audi", "Model":2008, "Color":"Black"}
-# print specific key value.
+#.keys/.values are methods
 print(cars.keys()) #Name, Model, Color
 print(cars.values()) #Audi, 2008, Black
