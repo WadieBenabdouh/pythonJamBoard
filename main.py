@@ -3,11 +3,13 @@
 # -->>>
 
 # PEMDAS
-Pemdas = {
+PEMDAS = {
     "P" : "stands for parantheses operations",
     "E" : "stands for exponents (power)",
-    "M" : "stands for multiplcation",
+    "M" : "stands for multiplication",
     "D" : "stands for division",
     "A" : "stands for addition",
     "S" : "stands for substaction"
 }
+
+print(PEMDAS)
