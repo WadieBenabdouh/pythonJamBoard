@@ -8,6 +8,6 @@ Pemdas = {
     "E" : "stands for exponents (power)",
     "M" : "stands for multiplcation",
     "D" : "stands for division",
-    "A" : "stands for division",
+    "A" : "stands for addition",
     "S" : "stands for substaction"
 }
