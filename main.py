@@ -1,11 +1,24 @@
-ff = "Firefox Developer Edition "
-brave = "Brave Browser "
-benchmarkTest = ["SpotifyTab", "YouTubeTab", "ChatGPTTab"]
+# string
+name = "Bravo Six"
+# integer
+callSign = 141
+# float
+score = 141.0
+# boolean
+is_deployed = True
 
-memoryUsage = "RAM"
+# list
+bravo_six_squad = ["Captain Price", "Ghost Simon", "Captain MC Tavish", "Sandman"]
 
-resutlFF = ff + str(benchmarkTest) + " = " + str(83) + "%"
-resultBB = brave + str(benchmarkTest) + " = " + str(70) + "%"
+# Tuple
+us_jets = ("f16", "f15", "a10")
 
-finalVerdict = [resutlFF] + [resultBB]
-print(finalVerdict)
+# dictionaries
+f16_specs = {
+    'speed' : "mach 1.0",
+    'weight' : 4000,
+    'radarRange' : 300.75,
+    'ammunition' : ["AIM-9X", "30mm cannon"]
+}
+
+print(f16_specs["ammunition"][1])
