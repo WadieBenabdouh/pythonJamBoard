@@ -7,3 +7,7 @@ print(id(list2))
 print(id(list3))
 
 print(list is not list2)
+
+# benchmark 
+# ff 83
+# brave ?
