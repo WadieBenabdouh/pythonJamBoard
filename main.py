@@ -1,13 +1,11 @@
-list = [1,2,3,4]
-list2 = [1,2,3,4]
-list3 = list2
+ff = "Firefox Developer Edition "
+brave = "Brave Browser "
+benchmarkTest = ["SpotifyTab", "YouTubeTab", "ChatGPTTab"]
 
-print(id(list))
-print(id(list2))
-print(id(list3))
+memoryUsage = "RAM"
 
-print(list is not list2)
+resutlFF = ff + str(benchmarkTest) + " = " + str(83) + "%"
+resultBB = brave + str(benchmarkTest) + " = " + str(70) + "%"
 
-# benchmark 
-# ff 83
-# brave ?
+finalVerdict = [resutlFF] + [resultBB]
+print(finalVerdict)
