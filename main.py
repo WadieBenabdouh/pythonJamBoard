@@ -1,14 +1,10 @@
-legal_age = 18
-user_age = input()
-# converting the input from str to integer.
-converted_age = int(user_age)
+list = [1,2,3,4]
+list2 = [1,2,3,4]
+list3 = list2
 
-# verification system using conditionals.
-if legal_age < converted_age:
-    print("You are allowed to access the club")
-    
-elif legal_age == converted_age:
-    print("Perfect age amigo")
-    
-else :
-    print("You are not allowed for entry")
+print(id(list))
+print(id(list2))
+print(id(list3))
+
+print(list is list2)
+print(list2 is list3)
