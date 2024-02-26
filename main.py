@@ -6,5 +6,4 @@ print(id(list))
 print(id(list2))
 print(id(list3))
 
-print(list is list2)
-print(list2 is list3)
+print(list is not list2)
