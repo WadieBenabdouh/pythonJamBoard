@@ -20,7 +20,6 @@ f16_specs = {
     'radarRange' : 300.75,
     'ammunition' : ["AIM-9X", "30mm cannon"]
 }
-
 print(f16_specs["ammunition"][1])
 
 
