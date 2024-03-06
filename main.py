@@ -47,5 +47,19 @@ guests.insert(3, newGuests[1]) # one in the middle
 guests.insert(0, newGuests[2]) # one at the beginning of the list
  
 print("-added new elements at different location", guests)
+print(len(guests))  #print the length of the list now.
+
+# - Turns out you'll only have space for 6 people, Remove 1 random person and one specific person by their name.
+import random
+# because [random.randint(a, b)] a and b refer to the range.
+del guests[random.randint(0, len(guests))]
+del guests[0]
+print(guests)
 
 
+
+# Time to organize the party! Print out a sorted list of your friends, Now reverse the list.
+guests.sort()
+print(guests)
+guests.reverse()
+print(guests)
