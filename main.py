@@ -32,6 +32,8 @@ guests = ["Bike", "Screwdriver", "Tactical Nokia", "BlackRed Shoes", "T-90 Shtor
 # - Print out a personalized invitation for 3 of them using f string.
 # >>>>>> print(f'...')
 print(f'-welcome my {guests[0]} to the party.')
+print(f'Welcome Mr {guests[1]} to the party')
+print(f'Welcome RED EYES AKA {guests[4]} don\'t be like a tank eyes')
 
 # - one of your guests can't make it (Tactical Nokia) , modify your list and replace that guest.
 guests[2] = "Walmart Core Prime"
